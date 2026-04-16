@@ -98,7 +98,7 @@ void binarySearch()
             {
                 low = mid + 1;
             }
-            
+
         } while (low <= high);
 
         if (low > high)
@@ -110,6 +110,14 @@ void binarySearch()
         cin >> ulang;
 
     } while (ulang == 'y' || ulang == 'Y');
+}
+
+int main() 
+{
+    input();
+    bubbleSortArray();
+    display();
+    binarySearch();
 }
 
 
